@@ -24,8 +24,11 @@ body {
     margin-top: -5px
 }
 
-.navbar__links--nav{
+.navbar__links {
     margin-right: 20px;
+}
+
+.navbar__links--nav{
     color: #737373;
     font-size: 12px;
     font-weight: bold;
@@ -33,7 +36,7 @@ body {
     letter-spacing: 0.2px;
 }
 
-.navbar__buttons--nav {
+.navbar__links--login {
     color: #1BA0AB;
     margin-right: 20px;
     font-weight: bold;
@@ -42,7 +45,7 @@ body {
     letter-spacing: 0.2px;
 }
 
-.navbar__buttons--btn {
+.navbar__links--join {
     color: white;
     background-color: #1BA0AB;
     font-weight: bold;
@@ -57,7 +60,7 @@ body {
     border-radius: 5px;
 }
 
-.navbar__buttons--span {
+.navbar__icon {
     margin-left: 10px;
 }
 
@@ -94,33 +97,32 @@ body {
    margin-bottom: 40px;
 }
 
-.main__buttons--btn {
-    color: white;
-    background-color: #1BA0AB;
+.main__buttons {
     font-weight: bold;
     font-size: 14px;
     line-height: 22px;
     letter-spacing: 0.2px;
+    
+    border-radius: 5px;
+}
+
+.main__buttons--join {
+    color: white;
+    background-color: #1BA0AB; 
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-radius: 5px;
 }
 
 .main__buttons--more {
     color: #1BA0AB;
     background-color: white;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 22px;
-    letter-spacing: 0.2px;
+    border: #1BA0AB solid 1px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border: #1BA0AB solid 1px;
-    border-radius: 5px;
 }
 
 .about{
@@ -143,7 +145,7 @@ body {
     top: 25%;
 }
 
-.about__paragraphs--p1 {
+.about__title {
     color: #252B42;
     font-weight: 700;
     font-size: 40px;
@@ -152,7 +154,7 @@ body {
 
 }
 
-.about__paragraphs--p2 {
+.about__paragraph {
     color: #737373;
     font-weight: 400;
     font-size: 14px;
@@ -160,7 +162,7 @@ body {
     letter-spacing: 0.2px;
 }
 
-.about__paragraphs--link {
+.about__learn-more {
     color: #1BA0AB;
     font-weight: 700;
     font-size: 14px;
@@ -180,23 +182,24 @@ body {
     margin-top: 6em;
 }
 
+.team__paragraph {
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
 .team__title {
     color: #1BA0AB;
-    font-weight: 700;
     font-size: 14px;
-    letter-spacing: 0.2px;
     margin-bottom: -30px;
 }
 
 .team__paragraphs--title {
     color: #252B42;
-    font-weight: 700;
     font-size: 40px;
-    letter-spacing: 0.2px;
     margin-bottom: 10px;
 }
 
-.team__paragraphs--p {
+.team__description {
     color: #737373;
     font-weight: 400;
     font-size: 14px;
@@ -210,23 +213,23 @@ body {
     margin-top: 8em;
 }
 
-.team__cards--card {
+.team__card {
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
 
-.team__cards--card__img {
+.card__img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-.team__cards--card__info {
+.card__info {
     padding: 10px;
     text-align: center;
 }
 
-.team__cards--card__info--name {
+.card__name {
     color: #252B42;
     font-weight: 700;
     font-size: 16px;
@@ -234,18 +237,19 @@ body {
     line-height: 24px;
 }
 
-.team__cards--card__info--name__prof {
+.card__prof {
     color: #737373;
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.2px;
 }
 
-.team__cards--card__info--social {
+.card__social {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 15px;
+    margin-right: 10px;
 }
 
 .contact {
@@ -258,40 +262,39 @@ body {
     width: 30%;
     padding-top: 10em;
     text-align: center;
+    letter-spacing: 0.2px;
 }
 
-.contact__content--news {
+.content__news {
     color: #1BA0AB;
     font-weight: 700;
     font-size: 14px;
-    letter-spacing: 0.2px;
     margin-bottom: -30px;
 }
 
-.contact__content--join {
+.content__join {
     color: #252B42;
     font-weight: 700;
     font-size: 40px;
-    letter-spacing: 0.2px;
     text-transform: uppercase;
     margin-bottom: -5px;
 }
 
-.contact__content--p {
+.content__description {
     color: #737373;
     font-weight: 400;
     font-size: 14px;
-    letter-spacing: 0.2px;
+    
 }
 
-.contact__content--input {
+.content__input {
     padding: 20px;
     width: 70%;
     border: 1px solid #E6E6E6;
     margin-top: 50px;
 }
 
-.contact__content--btn {
+.content__btn {
     padding: 20px;
     background-color: #1BA0AB;
     color: white;
